@@ -1,0 +1,13 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    justify-content: flex-end;
+    /* Anything applied here works vertically since direction is in column*/
+
+    align-items: flex-end; 
+    /* Pushes the container items to the end of the container towards the left.
+     Any other edit will work horizontally for align since direction is in column*/
+  }

@@ -1,0 +1,15 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+
+}
+
+.container > div {
+    flex: 1;
+}
+
+.search {
+  order: 1;
+}
